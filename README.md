@@ -25,5 +25,6 @@ This project designs and implements a movie recommendation engine from scratch f
 - **Online Phase**: Real-time rating prediction using precomputed values
 - **Hybrid Engine**: Combines predictions from user and item recommenders
 
+<img src="assets/architecture.png" alt="Architecture" width="30" height="40"/>
 
 ![Architecture](assets/architecture.png)
