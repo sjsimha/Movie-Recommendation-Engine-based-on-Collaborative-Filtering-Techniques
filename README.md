@@ -50,3 +50,13 @@ Evaluation criteria for recommendation systems tend to be multi-faceted, with no
 Impact of clustering on accuracy and performance was measured empirically on the fully tuned system against the evaluation dataset for both user/item engines.
 
 <img src="assets/clustering_impact.png" alt="Impact of Clustering" style="width:100%; height:auto"/>
+
+## 🔍 Discussion
+The primary purpose of this project was to improve the quality of recommendations to users of an online movie application by combining individual collaborative filtering systems as a hybrid system. A hybrid recommendation system was built from the ground-up with the main intent of evaluating and measuring the usefulness of combining user-based and item-based systems.
+
+- A basic hybrid combination of individual collaborative filtering systems provides better recommendations.
+- Ratings prediction accuracy gains between **2%** to **6%** were realized compared to the individual systems.
+- Even with a highly sparse dataset (~98%), the hybrid system generated predictions for **>95%**, thus significantly alleviating data sparsity problems inherent with real-world applications.
+- 12% of predicted ratings were exclusive to one or the other base system, justifying the benefits of hybridized systems for the **cold start** problem
+- Clustering: Both User and Item engine accuracies benefited from clustering. Clustering on the larger dimension (items) significantly impacted performance, albeit only in the offline phase. It's possible to select an acceptable trade-off between accuracy and performance.
+
