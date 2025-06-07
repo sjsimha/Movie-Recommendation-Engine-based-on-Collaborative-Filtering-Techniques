@@ -68,3 +68,11 @@ The primary purpose of this project was to improve the quality of recommendation
 - Deploy scalable infrastructure (e.g., Hadoop, Spark)
 - Add a modern web interface for real-time recommendations
 - Dynamically learn hybrid weights using regression or per-user/item profiling
+
+## 📚 References
+
+- MovieLens Dataset: https://grouplens.org/datasets/movielens/
+- Key Literature:  
+  - Aggarwal, C. (2016). *Recommender Systems*, Springer  
+  - Su & Khoshgoftaar (2009). *A Survey of Collaborative Filtering Techniques*  
+  - Burke (2002). *Hybrid Recommender Systems*  
