@@ -28,9 +28,21 @@ This project designs and implements a movie recommendation engine from scratch f
 <img src="assets/architecture.png" alt="Architecture" style="width:50%; height:auto"/>
 
 
-## 📊 Evaluation Plan
+## 📝 Evaluation Plan
+
 Evaluation criteria for recommendation systems tend to be multi-faceted, with no single criterion capturing the essence of all system goals.
 - Ratings Accuracy and the impact of Clustering on performance and accuracy will be the main evaluation metrics. 
 - Standard training, tuning and evaluation practices based on emperical methods common in Machine Learning are employed.
 
 <img src="assets/training_evaluation.png" alt="Training and Evaluation" style="width:50%; height:auto"/>
+
+## 📊 Results
+
+| System                    | MAE    | RMSE   |
+|---------------------------|--------|--------|
+| User-Based CF             | 0.6753 | 0.8823 |
+| Item-Based CF             | 0.7028 | 0.9236 |
+| **Hybrid CF (0.65/0.35)** | **0.6632** | **0.8687** |
+
+- **Sparsity Alleviation**: 95.57% rating coverage
+- **Cold Start Benefit**: 12% of predictions were exclusive to one system
