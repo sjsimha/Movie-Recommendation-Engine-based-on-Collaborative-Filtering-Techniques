@@ -76,3 +76,15 @@ The primary purpose of this project was to improve the quality of recommendation
   - Aggarwal, C. (2016). *Recommender Systems*, Springer  
   - Su & Khoshgoftaar (2009). *A Survey of Collaborative Filtering Techniques*  
   - Burke (2002). *Hybrid Recommender Systems*  
+
+## 🚀 Getting Started
+
+To run the system locally:
+
+```bash
+# Clone the repo
+git clone Movie-Recommendation-Engine-based-on-Collaborative-Filtering-Techniques.git
+
+# Run hybrid system
+python HybridRecommender.py
+```
