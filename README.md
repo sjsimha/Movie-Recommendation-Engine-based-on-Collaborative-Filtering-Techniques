@@ -26,4 +26,4 @@ This project designs and implements a movie recommendation engine from scratch f
 - **Hybrid Engine**: Combines predictions from user and item recommenders
 
 
-![Architecture](assets/architecture.png)
+![Architecture](/assets/architecture.png)
