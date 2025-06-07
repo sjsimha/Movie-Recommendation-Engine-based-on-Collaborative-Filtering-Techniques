@@ -26,3 +26,11 @@ This project designs and implements a movie recommendation engine from scratch f
 - **Hybrid Engine**: Combines predictions from user and item recommenders
 
 <img src="assets/architecture.png" alt="Architecture" style="width:50%; height:auto"/>
+
+
+## 📊 Evaluation Plan
+Evaluation criteria for recommendation systems tend to be multi-faceted, with no single criterion capturing the essence of all system goals.
+- Ratings Accuracy and the impact of Clustering on performance and accuracy will be the main evaluation metrics. 
+- Standard training, tuning and evaluation practices based on emperical methods common in Machine Learning are employed.
+
+<img src="assets/training_evaluation.png" alt="Training and Evaluation" style="width:50%; height:auto"/>
