@@ -10,4 +10,20 @@ This project designs and implements a movie recommendation engine from scratch f
 - **Cold start** problems
 - **Scalability** constraints
 
+## 🧠 Key Features
+
+- **User-based collaborative filtering** using Pearson Correlation
+- **Item-based collaborative filtering** using Cosine Similarity
+- **Hybridization engine** using a weighted average approach
+- **Naïve clustering** to improve scalability (using **K-means** clustering)
+- **Discount factor** applied to similarity calculations for better reliability
+- **MovieLens 100k** dataset for experimentation and validation
+
+## ⚙️ Architecture
+
+- **Offline Phase**: Clustering + similarity computation
+- **Online Phase**: Real-time rating prediction using precomputed values
+- **Hybrid Engine**: Combines predictions from user and item recommenders
+
+
 ![Picture 1](assets/Picture1.png)
