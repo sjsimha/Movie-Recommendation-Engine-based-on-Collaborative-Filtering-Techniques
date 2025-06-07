@@ -60,3 +60,11 @@ The primary purpose of this project was to improve the quality of recommendation
 - 12% of predicted ratings were exclusive to one or the other base system, justifying the benefits of hybridized systems for the **cold start** problem
 - Clustering: Both User and Item engine accuracies benefited from clustering. Clustering on the larger dimension (items) significantly impacted performance, albeit only in the offline phase. It's possible to select an acceptable trade-off between accuracy and performance.
 
+
+## 📈 Future Enhancements
+
+- Implement more sophesticated k-means clustering for peer grouping
+- Train on larger datasets (e.g., MovieLens 1M+)
+- Deploy scalable infrastructure (e.g., Hadoop, Spark)
+- Add a modern web interface for real-time recommendations
+- Dynamically learn hybrid weights using regression or per-user/item profiling
