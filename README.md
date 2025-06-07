@@ -4,7 +4,7 @@ In today’s internet-propelled world and the rapidly evolving era of Artificial
 A movie recommendation engine helps users discover films tailored to their tastes by analyzing past preferences and similarities with other users. It enhances user experience, drives engagement, and reduces decision fatigue by delivering personalized, relevant suggestions in real time.
 
 ## 📌 Project Overview
-This project designs and implements a movie recommendation engine from scratch for the ![MovieLens](https://grouplens.org/datasets/movielens/) 100k real-life dataset, using collaborative filtering recommendation techniques for both **User-based** and **Item-based** methods, and adds a hybridization algorithm to combine results from the two independent recommenders into a singular output. It focuses on addressing the core challenges faced by such systems such as:
+This project designs and implements a movie recommendation engine from scratch for the [MovieLens](https://grouplens.org/datasets/movielens/) 100k real-life dataset, using collaborative filtering recommendation techniques for both **User-based** and **Item-based** methods, and adds a hybridization algorithm to combine results from the two independent recommenders into a singular output. It focuses on addressing the core challenges faced by such systems such as:
 
 - **High data sparsity**
 - **Cold start** problems
