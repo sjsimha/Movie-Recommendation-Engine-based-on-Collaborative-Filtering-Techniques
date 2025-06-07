@@ -46,3 +46,6 @@ Evaluation criteria for recommendation systems tend to be multi-faceted, with no
 
 - **Sparsity Alleviation**: 95.57% rating coverage
 - **Cold Start Benefit**: 12% of predictions were exclusive to one system
+
+Impact of clustering on accuracy and performance was measured empirically on the fully tuned system against the evaluation dataset for both user/item engines.
+<img src="assets/clustering_impact.png" alt="Impact of Clustering" style="width:50%; height:auto"/>
